@@ -1,0 +1,170 @@
+
+
+body{
+    font-family: "Merriweather", serif;
+    background-color: #FAF3E0; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;  
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #C0392B; 
+    font-size: 3rem;
+    }
+
+.home-link {
+        display: inline-block;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: black; 
+        text-decoration: none;
+        background-color: #e6d5bf; 
+        padding: 10px 20px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+.home-link:hover {
+    background-color: #C0392B; 
+    color: white; 
+    }
+
+.recipe-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+.recipe-list li {
+        background-color: #E6CBA8; 
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        text-align: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+.recipe-list a {
+        text-decoration: none;
+        color: #C0392B; 
+        font-weight: bold;
+        font-family: 'Playfair Display', serif;
+    }
+    
+.recipe-list a:hover {
+        color: #2E8B57; 
+    }
+
+.recipe-list li:hover {
+        background-color: #D8B59D; 
+    }
+
+    /*lasagna page*/
+ img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin: 20px 0;
+    }
+    
+h2 {
+        font-family: 'Playfair Display', serif;
+        color: #2E8B57; 
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
+    
+p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 10px 0;
+    }
+
+a {
+        text-decoration: none;
+        color: #C0392B; 
+        font-weight: bold;
+    }
+
+ a:hover {
+        color: #2E8B57; 
+    }
+
+footer {
+        margin-top: 20px;
+        font-size: 0.9rem;
+        color: #555;
+    }
+
+/*short-rib-parpadelle*/
+
+.container {
+        max-width: 800px;
+        margin: 40px auto;
+        background: white;
+        padding: 60px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+h1, h2 {
+        font-family: 'Playfair Display', serif;
+        color: #8B0000; 
+    }
+    
+h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+    
+h2 {
+        font-size: 1.8rem;
+        margin-top: 20px;
+        border-bottom: 2px solid #A52A2A; 
+        padding-bottom: 5px;
+    }
+    
+img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 8px;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 20px 0;
+    }
+   
+ul, ol {
+        text-align: left;
+        display: inline-block;
+        margin: 15px auto;
+        padding: 0;
+        width: 90%;
+    }
+    
+   li {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 10px 0;
+    }
+    
+em {
+        font-style: italic;
+        color: #C0392B;
+    }
